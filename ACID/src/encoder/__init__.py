@@ -1,8 +1,6 @@
-from src.encoder import (
-    pointnet
-)
+from ACID.src.encoder import pointnet
 
 
 encoder_dict = {
-    'geom_encoder': pointnet.GeomEncoder,
+    "geom_encoder": pointnet.GeomEncoder,
 }
